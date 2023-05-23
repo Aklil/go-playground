@@ -1,0 +1,4 @@
+DATA TYPES
+- int, float64, bool string ,rune(unicode, a single unicode character), byte (uint8)
+
+CASTING
