@@ -10,6 +10,8 @@ import (
 var println = fmt.Println // shortcut for the funtion
 
 // the main function for start of execution
+// function names that start with an upper letter are those exported from other packages
+// private functions start with a lower letter
 
 func main(){
 	println("What is your name?")

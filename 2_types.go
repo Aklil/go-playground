@@ -11,10 +11,10 @@ var println = fmt.Println
 func main() {
 	//types
 	println("Exploring Go types")
-	println(reflect.TypeOf(40))
-	println(reflect.TypeOf(3.14))
-	println(reflect.TypeOf(true))	
-	println(reflect.TypeOf("Yollo!"))	
+	println(reflect.TypeOf(40))  //int
+	println(reflect.TypeOf(3.14)) //float64
+	println(reflect.TypeOf(true)) //bool
+	println(reflect.TypeOf("Yollo!")) //string	
 
 	//casting
 	v1 := 1.5

@@ -7,6 +7,7 @@ import (
 
 var println = fmt.Println
 
+// rune represents a Unicode code point -> int32
 func main(){
 
 	str := "Runes are chars in another language"
