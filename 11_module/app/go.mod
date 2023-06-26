@@ -1,3 +1,3 @@
-module com.aklil/example
+module aklil.com/example
 
 go 1.19

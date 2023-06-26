@@ -26,9 +26,6 @@ func main(){
 
 	//delete entry
 	delete(heroes, "Batman")
-
 	_, exists := heroes["Batman"]
-
 	fmt.Println("is deleted :", !exists)
-
 }
