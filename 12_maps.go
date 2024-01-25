@@ -16,7 +16,7 @@ func main(){
 	fmt.Println("1st element :", villains["Lex"]) //nothing will be printed , i.e nill character
 
 	//check exists
-	_, ok := heroes["Ironman"]
+	_, ok := heroes["Ironman"]   
 	fmt.Println("Ironman exists :", ok) //boolean
 
 	//loop 

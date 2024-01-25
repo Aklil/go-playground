@@ -6,9 +6,9 @@ import (
 	mypackage "aklil.com/example/exampledir" //referring a module
 )
 
-//mypackage "com.aklil/example/examplepackage"
+//mypackage "com.aklil/example/exampledir"
 // mypackage is the name of the package in the file,
-// examplepackage is the folder
+// exampledir is the folder
 // com.aklil/example is the module name
 
 func main(){

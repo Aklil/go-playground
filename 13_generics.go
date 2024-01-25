@@ -13,11 +13,11 @@ func getSum[T complex128](a T, b T) T{
 
 // user defined constraint
 
-type MyContraint interface{
+type MyConstraint interface{
 	int | float64
 }
 
-func getTwoSum[T MyContraint](a T, b T) T{
+func getTwoSum[T MyConstraint](a T, b T) T{
 	return a + b
 }
 

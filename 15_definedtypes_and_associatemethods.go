@@ -18,10 +18,9 @@ func (ml Mile) toKM() KM{
 
 func main() {
 	km := KM(4.5)
-	fmt.Printf("%.2f kms is %.2f miles", km , km.toMile())
+	fmt.Printf("%.2f kms is %.2f miles", km , km.toMile())  //kind of like an extension method
 
 	ml := Mile(6.78)
 	fmt.Println()
 	fmt.Printf("%.2f Miles is %.2f KMs", ml, ml.toKM())
-
 }

@@ -39,7 +39,6 @@ func main() {
 	v6 := "3.14"
 	
 	//one line err handling
-
 	if v7, err := strconv.ParseFloat(v6, 64); err == nil {   //64 is for bitsize i.e float64
 		println(v7)
 	}

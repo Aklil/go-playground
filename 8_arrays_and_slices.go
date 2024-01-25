@@ -4,7 +4,7 @@ import(
 	"fmt"
 )
 
-// arrays contain one specific data tpes
+// arrays contain one specific data type
 
 // The range form of the for loop iterates over a slice or map.
 
@@ -44,7 +44,6 @@ func main() {
 
 	strArr := "abcde"
 	runeArr := []rune(strArr)  //cast to rune array
-
 	for _, v := range runeArr {
 		fmt.Printf("%c", v)
 	}
@@ -54,7 +53,8 @@ func main() {
 	// rune represents - Unicode UTF-8 chars
 
 	byteArr := []byte{'a', 'b', 'c'}
-	byteStr := string(byteArr[:])  // byte array to string
+	byteStr := string(byteArr)  // byte array to string
+	//byteStr := string(byteArr[:])  // byte array to string with range; [:] all value or eg. [1:2] 
 
 	fmt.Println(byteStr)
 
