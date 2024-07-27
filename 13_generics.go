@@ -7,7 +7,7 @@ import (
 
 // there are built in constraints
 // for more at: https://pkg.go.dev/golang.org/x/exp/constraints
-func getSum[T complex128](a T, b T) T{
+func sum[T complex128](a T, b T) T{
 	return a + b
 }
 
@@ -17,10 +17,10 @@ type MyConstraint interface{
 	int | float64
 }
 
-func getTwoSum[T MyConstraint](a T, b T) T{
+func twoSum[T MyConstraint](a T, b T) T{
 	return a + b
 }
 
 func main(){
-	fmt.Println("sum 5.6, 7.8 :", getTwoSum(5.6, 7.8))
+	fmt.Println("sum 5.6, 7.8 :", twoSum(5.6, 7.8))
 }

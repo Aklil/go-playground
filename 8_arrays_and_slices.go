@@ -64,6 +64,7 @@ func main() {
 	// A slice can be a complete array or a part of an array, indicated by the start and end index.
 	//A slice is a dynamic-sized data structure.
 	// 	This means that the size of a slice can be changed after it is created. You can add or remove elements from a slice, and the slice will automatically resize itself to accommodate the changes.
+	// A slice is backed by an array underneath the implementation in go
 
 	sl1 := make([]string, 3) //The make built-in function allocates and initializes an object of type slice, map, chan
     //gave it initial size of 3
